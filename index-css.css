@@ -1,0 +1,177 @@
+.header-container {
+  background-color: #343A40;
+  border-radius: 0;
+  padding: 30px 0;
+}
+.header-container .navbar-brand {
+  color: #ffffff;
+  font-size: 40px;
+  font-weight: 400;
+  left: 45%;
+  position: relative;
+}
+.header-container .navbar-brand span {
+  font-size: 30px;
+}
+
+.hamburger-icon {
+  font-size: 25px;
+  padding: 10px;
+}
+
+.search-haeding {
+  display: inline-block;
+  font-family: "Glyphicons Halflings";
+  color: #343A40;
+}
+
+.thumb-container {
+  padding: 50px 0;
+  transition: margin-left 0.5s;
+}
+.thumb-container .thumb-wrapper .thumbnail {
+  border-radius: 2px;
+  box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+  padding: 0;
+}
+.thumb-container .thumb-wrapper .thumbnail .thumb-offset {
+  height: 100%;
+  width: 100%;
+}
+.thumb-container .thumb-wrapper .thumbnail .thumb-box {
+  border-radius: inherit;
+  height: 325px;
+}
+.thumb-container .thumb-wrapper .thumbnail .caption {
+  background-color: #343A40;
+  color: #ffffff;
+  height: 200px;
+  padding: 15px;
+}
+.thumb-container .thumb-wrapper .thumbnail .caption .book-no {
+  display: none;
+}
+.thumb-container .thumb-wrapper .thumbnail .caption .thumb-text {
+  font-size: 17px;
+  padding: 8px 0;
+}
+.thumb-container .thumb-wrapper .thumbnail .caption .price-tag {
+  font-size: 15px;
+}
+.thumb-container .thumb-wrapper .thumbnail .caption .price-tag .ratings {
+  display: inline-block;
+  float: right;
+}
+.thumb-container .thumb-wrapper .thumbnail .caption .price-tag .ratings li {
+  padding: 0;
+}
+.thumb-container .thumb-wrapper .thumbnail .caption .price-tag .ratings .checked {
+  color: #ffe816;
+}
+
+.page-footer {
+  text-align: center;
+}
+.page-footer .page-link {
+  color: #343A40;
+}
+.page-footer .page-link:hover {
+  color: #343A40;
+}
+.page-footer .active a {
+  background-color: #343A40;
+  border-color: #343A40;
+  color: #ffffff;
+}
+.page-footer .active a:hover {
+  background-color: #343A40;
+  border-color: #343A40;
+  color: #ffffff;
+}
+.page-footer .active a:focus {
+  background-color: #343A40;
+  border-color: #343A40;
+  color: #ffffff;
+}
+
+.sidenav {
+  background-color: #343A40;
+  height: 100%;
+  left: 0;
+  overflow-x: hidden;
+  padding-top: 100px;
+  position: fixed;
+  transition: 0.5s;
+  top: 0;
+  width: 0;
+  z-index: 1;
+}
+.sidenav .sidebar-active-link {
+  color: #ffffff;
+}
+
+.sidenav a {
+  color: #818181;
+  display: block;
+  font-size: 20px;
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #a7a2a2;
+}
+
+.sidenav .closebtn {
+  font-size: 36px;
+  margin-left: 50px;
+  position: absolute;
+  right: 25px;
+  top: 0;
+}
+
+.modal-header .close {
+  color: #343A40;
+}
+.modal-header .close:focus {
+  outline: none;
+}
+
+.modal-book-title {
+  color: #343A40;
+  font-family: monospace;
+  font-size: 25px;
+  margin: 0;
+  text-align: center;
+}
+
+.modal-img-container {
+  text-align: center;
+}
+.modal-img-container .modal-img img {
+  width: 65%;
+}
+
+.img-description {
+  color: #343A40;
+  font-size: 15px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.modal-footer {
+  color: #343A40;
+  font-weight: 600;
+}
+.modal-footer .modal-price-tag {
+  float: left;
+}
+
+@media only screen and (max-width: 767px) {
+  .header-container .navbar-brand {
+    left: 0;
+  }
+}
+
+/*# sourceMappingURL=index-css.css.map */

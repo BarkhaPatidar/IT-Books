@@ -1,0 +1,24 @@
+{{#books}}
+    <div class="col-sm-6 col-md-4 thumb-wrapper">
+        <div class="thumbnail">
+            <div class="thumb-box"><img src="{{image}}" class="thumb-offset book-img"></div>
+            <div class="caption">
+                <p class="book-no">{{isbn13}}</p>
+                <p class="thumb-text book-title">{{title}}</p>
+                <p class="limit" id="limit{{index}}">{{subtitle}}</p>
+                <div class="price-tag clearfix">
+                    {{price}}  
+                    <div class="ratings">
+                        <ul class="list-inline">
+                            <li><span class="fa fa-star"></span></li>
+                            <li><span class="fa fa-star"></span></li>
+                            <li><span class="fa fa-star"></span></li>
+                            <li><span class="fa fa-star"></span></li>
+                            <li><span class="fa fa-star"></span></li>
+                        </ul>    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{{/books}}

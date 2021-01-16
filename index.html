@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IT Books</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="index-css.css">
+</head>
+<body>
+    <nav class="navbar navbar-inverse header-container">
+        <a href="#" class="navbar-brand"><span class="glyphicon glyphicon-book" aria-hidden="true"></span> IT Books</a>
+    </nav>  
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" id="closebtn" class="closebtn">&times;</a>
+        <a href="javascript:void(0)" class="sidebar-links sidebar-active-link">MongoDB</a>
+        <a href="javascript:void(0)" class="sidebar-links">JavaScript</a>
+        <a href="javascript:void(0)" class="sidebar-links">Bootstrap</a>
+        <a href="javascript:void(0)" class="sidebar-links">CSS</a>
+        <a href="javascript:void(0)" class="sidebar-links">HTML</a>
+        <a href="javascript:void(0)" class="sidebar-links">PHP</a>
+        <a href="javascript:void(0)" class="sidebar-links">MySQL</a>
+        <a href="javascript:void(0)" class="sidebar-links">NodeJs</a>
+        <a href="javascript:void(0)" class="sidebar-links">jQuery</a>
+    </div>
+    <span id="hamburger-icon" class="glyphicon glyphicon-menu-hamburger hamburger-icon" aria-hidden="true"></span>
+    <h1 class="search-haeding" id="search-haeding"></h1>
+    <div class="thumb-container">
+        <div class="container">
+            <div class="row" id="thumb-row">
+            </div>
+        </div>
+    </div>
+
+    <div class="page-footer">
+        <ul class="pagination pagination-sm" id="pagination">
+        </ul>
+    </div>
+
+    <!-- Modal popup strats -->
+
+    <div class="modal" id="img-modal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button class="close" type="button" data-dismiss="modal"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></button>
+                    <h1 class="modal-book-title" id="modal-title"></h1>
+                </div>
+                <div class="modal-body">
+                    <div class="modal-img-container"><div class="modal-img"><img src="" class="modal-book-img" id="modal-book-img"></div></div>
+                    <p class="img-description" id="img-description"></p>
+                    <div class="modal-footer">
+                        <span class="modal-price-tag" id="modal-price-tag"></span>
+                        <span class="modal-book-no" id="modal-book-no"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal popup ends -->
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/4.1.0/mustache.min.js"></script>
+    <script src="index.js"></script>
+  
+
+</body>
+</html>

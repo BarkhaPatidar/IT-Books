@@ -1,0 +1,206 @@
+$navbar-bg: #343A40;
+$white-clr: #ffffff;
+
+.header-container {
+    background-color: $navbar-bg;
+    border-radius: 0;
+    padding: 30px 0;
+   
+    .navbar-brand {
+        color: $white-clr;
+        font-size: 40px;
+        font-weight: 400;
+        left: 45%;
+        position: relative;
+    
+        span {
+            font-size: 30px;
+        }
+    }
+}
+
+.hamburger-icon {
+    font-size: 25px;
+    padding: 10px;
+}
+
+.search-haeding {
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    color: $navbar-bg;
+}
+
+.thumb-container {
+    padding: 50px 0;;
+    transition: margin-left .5s;
+
+    .thumb-wrapper {
+
+        .thumbnail {
+            border-radius: 2px;
+            box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+            padding: 0;
+        
+            .thumb-offset {
+                height: 100%;
+                width: 100%;
+            }
+        
+            .thumb-box {
+                border-radius: inherit;
+                height: 325px;
+            }
+        
+            .caption {
+                background-color: $navbar-bg;
+                color: $white-clr;
+                height: 200px;
+                padding: 15px;
+
+                .book-no {
+                    display: none;
+                }
+            
+                .thumb-text {
+                    font-size: 17px;
+                    padding: 8px 0;
+                }
+        
+                .price-tag {
+                    font-size: 15px;
+
+                    .ratings {
+                        display: inline-block;
+                        float: right;
+
+                        li {
+                            padding: 0;
+                        }
+
+                        .checked {
+                            color: #ffe816;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+.page-footer {
+    text-align: center; 
+
+    .page-link {
+        color: $navbar-bg;
+
+        &:hover {
+            color: $navbar-bg;
+        }
+    }
+
+    .active a{
+        background-color: $navbar-bg;
+        border-color: $navbar-bg;
+        color: $white-clr;
+
+        &:hover {
+            background-color: $navbar-bg;
+            border-color: $navbar-bg;
+            color: $white-clr;
+        }
+
+        &:focus {
+            background-color: $navbar-bg;
+            border-color: $navbar-bg;
+            color: $white-clr;
+        }
+    }
+}
+
+.sidenav {
+    background-color: $navbar-bg;
+    height: 100%;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 100px;
+    position: fixed;
+    transition: 0.5s;
+    top: 0;
+    width: 0;
+    z-index: 1;
+    .sidebar-active-link {
+        color: $white-clr;
+    }
+}
+  
+.sidenav a {
+    color: #818181;
+    display: block;
+    font-size: 20px;
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+  
+.sidenav a:hover {
+    color: #a7a2a2;
+}
+  
+.sidenav .closebtn {
+    font-size: 36px;
+    margin-left: 50px;
+    position: absolute;
+    right: 25px;
+    top: 0;
+}
+
+.modal-header .close {
+    color: $navbar-bg;
+
+    &:focus {
+        outline: none;
+    }
+}
+
+.modal-book-title {
+    color: $navbar-bg;
+    font-family: monospace;
+    font-size: 25px;
+    margin: 0;
+    text-align: center;
+}
+
+.modal-img-container {
+    text-align: center;
+
+    .modal-img {
+    
+        img {
+            width: 65%;
+        }
+    }
+}
+
+.img-description {
+    color: $navbar-bg;
+    font-size: 15px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.modal-footer {
+    color: $navbar-bg;
+    font-weight: 600;
+
+    .modal-price-tag {
+        float: left;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .header-container .navbar-brand {
+        left: 0;
+    }
+}
+
